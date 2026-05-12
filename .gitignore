@@ -82,7 +82,15 @@ celerybeat.pid
 # Environments
 .env
 .env.local
+.env.bscMainnet
+.env.bscTestnet
 .env.*.local
+
+token-launch/.env
+token-launch/.env.local
+token-launch/.env.bscMainnet
+token-launch/.env.bscTestnet
+token-launch/.env.*.local
 
 # mypy
 .mypy_cache/
