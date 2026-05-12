@@ -1,0 +1,69 @@
+To: audit@certik.io
+Subject: Tokencoin (TOKEN) Smart Contract Audit Request
+
+Dear CertiK Team,
+
+My name is [您的姓名] and I am reaching out to request a security audit for our cryptocurrency project.
+
+=== PROJECT OVERVIEW ===
+
+Project Name: Tokencoin
+Token Symbol: TOKEN
+Token Type: ERC-20 / BEP-20 (Multi-chain)
+Total Supply: 10,000,000,000 (10 billion)
+Chains Planned: Solana, Ethereum, BSC
+
+=== CONTRACTS TO AUDIT ===
+
+1. MyToken.sol (125 lines)
+   - ERC-20 token with pausable and blacklist functionality
+   - Features: mint, burn, pause, blacklist
+   - Inherits: ERC20, ERC20Pausable, Ownable (OpenZeppelin 5.0)
+
+2. TokenVesting.sol (130 lines)
+   - Linear vesting with cliff period
+   - Features: initializeVesting, release, emergencyWithdraw
+   - Inherits: Ownable, ReentrancyGuard (OpenZeppelin 5.0)
+
+=== TECHNICAL STACK ===
+
+- Solidity: 0.8.24
+- Framework: Hardhat 2.22.18
+- OpenZeppelin: 5.0.0
+- Tests: 33 passing (100% coverage)
+
+=== WHY CERTIK ===
+
+We chose CertiK because of your:
+- Industry-leading security expertise
+- Recognized audit reports for major DeFi projects
+- Skynet security monitoring
+- Excellent reputation in Asian market
+
+=== BUDGET & TIMELINE ===
+
+Budget Range: $15,000 - $30,000 USD
+Flexible depending on scope and timeline
+Planning mainnet launch in 4-6 weeks
+
+=== ATTACHED DOCUMENTS ===
+
+1. Project Whitepaper (docs/marketing/whitepaper.md)
+2. Token Economics Document (docs/legal/token-economics.md)
+3. Smart Contract Source Code (contracts/token/)
+4. Audit Application Form (docs/audit/audit-application-form.md)
+
+=== QUESTIONS ===
+
+1. Your current availability for our project?
+2. Estimated timeline and cost?
+3. Next steps to proceed?
+
+I look forward to your response.
+
+Best regards,
+
+Name: [您的姓名]
+Email: [您的邮箱]
+Telegram: [您的 Telegram]
+WhatsApp: [您的 WhatsApp] (optional)
